@@ -4,9 +4,32 @@
 <head>
   <meta charset="utf-8">
   <title>Yigitalp's Personal Site</title>
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- style tagleri içerisinde hr tagi için background-color: white; çalışmadı. Bazı elementlerin browser bazlı default styleları vardır. Hr da böyle. Border-style inset olan değeri border-style none yapabiliriz.
+  Pesticide for Chrome diye bir app var. Sitelerin elementlerini kutucuk olarak gösteriyor. None yapınca göstermedi çizgiyi. Height verince gösteriyor. Properties of boxes... Kutular dolayısıyla problem oldu.
+  Width pixel olarak vermek yerine yüzde olarak da verebiliriz. Mobil'de problem oluşturmaması için vb.
+
+  border style için dotted none none verirsek dotted top değeri alır.
+  eğer dotted verirsek dört kenara da aynısını uygular. kutu olarak düşünmeye devam. iki verirsek top ve bottom için ilk; left ve right için ikinci.
+  üç verirsek birincisi top ikincisi left and right üçüncüsü bottom
+  dört verirsek birincisi top ikincisi right üçüncüsü bottom dördüncüsü left.
+  bunun yerine direkt border-top-style yazarak sadece top style verebiliriz.
+  elde etmeye çalıştığımız şey sadece üç dört beş tane nokta...
+
+  Style'ı her sayfa için tek tek vermek ise, inline vermekten daha kolay olansa da
+  external CSS kullanarak tüm pagelere tek seferde verebiliriz.
+
+  inline, external ve style içerisinde verdiğimiz aynı değerler için:
+inline, style (internal deniyor sanırım.), external şeklinde büyükten küçüğe bir hiyerarşi düşünülebilir.
+
+style tagi head içinde veriliyor.-->
 </head>
 
 <body>
+  <!--colorhunt.co: there are cool designs by designers to use.
+We can use color value mdn documentation for finding words to use like blue. (rather than using hex codes)
+Bu verdiğimiz style inline. Her yerde aynısını vermek gerekiyor. CSS ise bunu her yerde uygulayabilmeyi kolaylaştırır.-->
   <table cellspacing=20>
     <tr>
       <td><img src="images/photo.png" alt="Yigitalp's displayphoto"></td>

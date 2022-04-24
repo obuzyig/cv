@@ -1,0 +1,29 @@
+body {
+  background-color: #EAF6F6;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+}
+
+h1 {
+  color: #66BFBF;
+}
+
+h3 {
+  color: #66BFBF;
+}
+
+/* csslerde style verirken h3, img vb. vermek yerine class verebiliriz. .classismi şeklinde açıp verip img class= diye değer veirrsek çalışır.
+Ayrıca id verebiliriz. Ama örneğin index sayfasında bir id için bir değer verebiliyoruz. id spesifik bir element için değer verirken kullanılmalı.
+#heading yazarak heading id'sinin değerleri tanımlanır. (style)
+
+örneğin index html'de class tanımlarken broccoli circular yazdım. img class = "broccoli circular" bu noktada hem broccoli hem de circular classındaki değerler ilgili element / elementler için uygulanır.)
+classta bunu yapabilirken id'de bunu yapamazsınız.
+
+pseudo classlar var :hover gibi örneğin img:hover üzerine geldiğinde değişecek renkler gibi düşünülebilir.
+: ile kullanılırlar. */
